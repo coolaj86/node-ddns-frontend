@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DNS</title>
+
+    <!-- bootstrap -->    
+    <link rel='stylesheet' href='./bootstrap/css/bootstrap-theme.min.css' />
+    <link rel='stylesheet' href='./bootstrap/css/bootstrap.min.css' />
+
+    <link rel='stylesheet' href='./stylesheets/style.css' />
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">node-dyndns</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="/dns">Domain</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <h2>DNS</h2>
+    <table  class="table">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>TTL</th>
+          <th>Query</th>
+          <th>Answer</th>
+          <th>Pri</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="js-dns-row">
+          <td class="js-type">&nbsp;</td>
+          <td class="js-ttl">&nbsp;</td>
+          <td class="js-query">&nbsp;</td>
+          <td class="js-answer">&nbsp;</td>
+          <td class="js-priority">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

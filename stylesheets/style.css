@@ -1,0 +1,46 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 70px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.code {
+    border: #AAA solid 1px;
+    background: #FAFAFA;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+li.raw {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+ul.table {
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+}
+
+li.raw_key {
+    width: 100px;
+}
+
+li.raw_value {
+    width: 200px;
+}
+
+li.raw_desc {
+    width: 300px;
+}
+
+.jumbotron {
+	background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

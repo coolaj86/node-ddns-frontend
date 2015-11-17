@@ -1,0 +1,28 @@
+{
+  "name": "com.daplie.dns",
+  "version": "1.0.0",
+  "authors": [
+    "AJ ONeal <awesome@coolaj86.com>"
+  ],
+  "description": "\"DNS Management App\"",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "DNS",
+    "DDNS"
+  ],
+  "license": "Apache-v2",
+  "homepage": "https://daplie.com/dns/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
