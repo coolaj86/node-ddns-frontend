@@ -22,7 +22,7 @@
 
   $.http({
     method: 'GET'
-  , url: '/api/dns/public/dns.json'
+  , url: '/api/com.daplie.dns/public'
   }).then(function (data) {
     console.log('data');
     console.log(data);
