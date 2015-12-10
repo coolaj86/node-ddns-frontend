@@ -1,8 +1,8 @@
 {
-  "name": "com.daplie.dns",
+  "name": "com.daplie.ddns",
   "version": "1.0.0",
   "authors": [
-    "AJ ONeal <awesome@coolaj86.com>"
+    "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)"
   ],
   "description": "\"DNS Management App\"",
   "moduleType": [
@@ -13,8 +13,8 @@
     "DNS",
     "DDNS"
   ],
-  "license": "Apache-v2",
-  "homepage": "https://daplie.com/dns/",
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "https://github.com/Daplie.com/node-ddns-frontend/",
   "ignore": [
     "**/.*",
     "node_modules",
