@@ -14,6 +14,7 @@
       $tpl.find('.js-ttl').html(record.ttl);
       $tpl.find('.js-query').html(record.name || record.zone);
       $tpl.find('.js-answer').html(record.value);
+      $tpl.find('.js-device').html(record.device);
       tpls.push($tpl);
     });
 
