@@ -9,6 +9,7 @@
 
     data.forEach(function (record) {
       var $tpl = $(tpl);
+      $tpl.find('.js-registered').html(record.registered);
       $tpl.find('.js-type').html(record.type);
       $tpl.find('.js-priority').html(record.priority);
       $tpl.find('.js-ttl').html(record.ttl);
